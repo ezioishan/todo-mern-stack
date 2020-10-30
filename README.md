@@ -25,13 +25,20 @@ To test the api, POSTMAN or INSOMNIA software can be used
 ### Installation
 The app requires [Node.js](https://nodejs.org/) v4+ to run.
 Install the dependencies and devDependencies and start the server.
-
+To install backend dependencies:
 ```sh
 $ cd todo-mern-stack
 $ npm install
+```
+To install frontend dependencies:
+```sh
+$ cd todo-mern-stack/frontend
+$ npm install
+```
+To run:
+```sh
 $ node run dev
 ```
-
 ### Future improvements
 
  - Add Update operation
